@@ -2,7 +2,7 @@
 
 [Chang Rajani](https://github.com/Coolnesss), [Matti Luukkainen](https://github.com/mluukkai)
 
-Nopea johdatus Rubyyn jo ohjelmointia osaaville. Kohdeyleisönä lähinnä kurssin Web-palvelinohjelmointi Ruby on Rails -osallistujat.
+Nopea johdatus Rubyyn jo ohjelmointia osaaville. Kohdeyleisönä lähinnä kurssin [Web-palvelinohjelmointi Ruby on Rails -osallistujat](https://github.com/mluukkai/WebPalvelinohjelmointi2016/wiki).
 
 Huomaa, että kurssi on vielä beta-testausvaiheessa. Jos huomaat materiaalissa typoja tai muita ongelmia, tee _pull request_, klikkaamalla tämän sivun vasemman yläreunan kynäsymboolia ja tee muutokset.
 
