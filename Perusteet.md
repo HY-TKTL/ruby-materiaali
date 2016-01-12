@@ -512,3 +512,5 @@ Joissain tilanteissa voi olla myös tarve muuttaa merkkijono symboliksi:
 * :parillinen, parillisten lukujen lista
 * :pariton, parittomien lukujen lista
 * :summa, taulukon lukujen summa
+>
+> lukujen tulee olla suuruusjärjestyksessä metodien palauttamilla listoilla
