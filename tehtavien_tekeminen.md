@@ -4,7 +4,7 @@ Oletetaan että koneellesi on asennettu Ruby ja rspec. Jos ei, toimi esim. [täm
 
 ## git
 
-Tarvitset kurssin suorittamista varten käyttäjätunnuksen [GitHub](github.com):iin ja pienen määrän git-osaamista. Luo tunnus [täällä](https://github.com/mluukkai/WebPalvelinohjelmointi2016/wiki/Versionhallinta) olevan ohjeen mukaan
+Tarvitset kurssin suorittamista varten käyttäjätunnuksen [GitHub](http://github.com):iin ja pienen määrän git-osaamista. Luo tunnus [täällä](https://github.com/mluukkai/WebPalvelinohjelmointi2016/wiki/Versionhallinta) olevan ohjeen mukaan
 
 ## tehtäväpohjan kloonaaminen
 
