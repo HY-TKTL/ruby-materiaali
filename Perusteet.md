@@ -8,8 +8,8 @@ Huomaa, että kurssi on vielä beta-testausvaiheessa. Jos huomaat materiaalissa 
 
 Aloita asentamalla koneellesi Ruby esim. [tämän](https://github.com/mluukkai/WebPalvelinohjelmointi2016/wiki/railsin-asennus) ohjeen mukaan.
 
-Linkit
-* [Ohjeita tehtävien tekemiseen](https://github.com/HY-TKTL/ruby-materiaali/blob/master/tehtavien_tekeminen.md)
+Linkkejä
+* [Ohjeita kurssin tehtävien tekemiseen](https://github.com/HY-TKTL/ruby-materiaali/blob/master/tehtavien_tekeminen.md)
 * [Pistelista](https://ruby-scoresheet.herokuapp.com/)
 
 ## Perusteet
