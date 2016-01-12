@@ -482,7 +482,7 @@ irb(main):006:0> hash[3]
 > #### [Tehtävä 10](https://github.com/HY-TKTL/ruby-tehtava10)
 > Tee metodi `avaimien_summa`, joka saa parametriksi hashin, jonka kaikki avaimet ovat kokonaislukuja, ja palauttaa sen avaimien summan. Etsi sopivia metodeja [Hashin apikuvauksesta](http://ruby-doc.org/core-2.3.0/Hash.html)
 
-> #### Tehtävä 11
+> #### [Tehtävä 11](https://github.com/HY-TKTL/ruby-tehtava11)
 > Tee metodi `arvojarjestys`, joka saa parametriksi hashin, jonka kaikki arvot ovat kokonaislukuja, ja palauttaa taulukon, jossa on sen nollaa suuremmat arvot suuruusjärjestyksessä. Sopivia metodeja löytyy taulukon ja hashin apikuvauksesta.
 
 Merkkijonojen sijaan hashin avaimina kannattaa käyttää aiemmin esiteltyjä symbooleja:
@@ -505,7 +505,7 @@ Joissain tilanteissa voi olla myös tarve muuttaa merkkijono symboliksi:
  => :a
 ```
 
-> #### Tehtävä 12
+> #### [Tehtävä 12](https://github.com/HY-TKTL/ruby-tehtava12)
 > Tee metodi `luokittelu`, joka saa parametriksi kokonaislukutaulukon ja palauttaa taulukon arvojen perusteella muodostettavan hashin, jolla on seuraavat avaimet ja arvot
 * :negatiivinen, negatiivisten lukujen lista
 * :positiivinen, positiivisten lukujen lista
