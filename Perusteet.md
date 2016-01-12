@@ -1,5 +1,11 @@
 # Olio-ohjelmointia Rubyllä
 
+Nopea johdatus Rubyyn jo ohjelmointia osaaville. Kohdeyleisönä lähinnä kurssin Web-palvelinohjelmointi Ruby on Rails -osallistujat.
+
+Huomaa, että kurssi on vielä beta-testausvaiheessa. Jos huomaat materiaalissa typoja tai muita ongelmia, tee _pull request_, eli mene osoitteeseen https://github.com/HY-TKTL/ruby-materiaali/blob/master/Perusteet.md paina vasemmalta kynä-symboolia ja tee muutokset.
+
+Aloita asentamalla koneellesi Ruby esim. [tämän](https://github.com/mluukkai/WebPalvelinohjelmointi2016/wiki/railsin-asennus) ohjeen mukaan.
+
 ## Perusteet
 
 ### Komentotulkki
@@ -204,10 +210,14 @@ end
 
 Virhe johtuu nyt siitä, että Ruby-tulkki ei ole vielä ehtinyt metodimäärittelyyn asti siinä vaiheessa kun metodia kutsutaan. Eli toisin kuin Javassa, metodit (ja luokat) on määriteltävä koodissa ennen kuin niitä pystytään käyttämään.
 
-> #### [Tehtävä 1](https://github.com/mluukkai/ruby-tehtava1)
+### Kurssin tehtävät
+
+Ohjeita tehtävien tekemiseen [täällä]()
+
+> #### [Tehtävä 1](https://github.com/HY-TKTL/ruby-tehtava1)
 > Tee metodi `summa`, joka _palauttaa_ parametreinaan saamansa kahden luvun summan.
 
-> #### [Tehtävä 2](https://github.com/mluukkai/ruby-tehtava2)
+> #### [Tehtävä 2](https://github.com/HY-TKTL/ruby-tehtava2)
 > Tee metodi `erotus`, joka _tulostaa_ parametreinaan saamansa kahden luvun erotuksen.
 
 
@@ -257,7 +267,7 @@ Muitakin vaihtoehtoja toiston toteuttamiseen on, mutta emme käy niitä nyt läp
 
 Rubyssä käytetään erittäin harvoin for- ja while-toistolausekkeita. Jos huomaat käyttäväsi niitä, tiedät että koodisi ei ole kovin Rubymaistä.
 
-> #### [Tehtävä 3](https://github.com/mluukkai/ruby-tehtava3)
+> #### [Tehtävä 3](https://github.com/HY-TKTL/ruby-tehtava3)
 > Tee metodi `kertoma`, joka palauttaa annetun luvun kertoman.
 > Jos et muista, tarkista Wikipediasta mikä on kertoma
 
@@ -301,12 +311,14 @@ irb(main):004:0> taulukko.include? "kolme"
 => true
 ```
 
-> #### Tehtävä 4
+> #### [Tehtävä 4](https://github.com/HY-TKTL/ruby-tehtava4)
 > Tee metodi `tulosta`, joka saa parametrina taulukon ja tulostaa sen jokaisen alkion. Kaikki alkiot tulostetaan samalle riville.
 
-> #### Tehtävä 5
-> Tee metodi `puuttuva`, joka saa parametrina taulukon, jonka pituus on n-1. Taulukossa on kertaalleen yhtä lukuunottamatta jokainen välin 0..n-1 luku. Metodin tulee tulostaa puuttuva luku.
-> Esim. parametrilla `[1,2,5,4,0]` metodin kuuluisi tulostaa 3.
+> #### [Tehtävä 5](https://github.com/HY-TKTL/ruby-tehtava5)
+>Tee metodi `puuttuva`, joka saa parametrina taulukon, jonka pituus on n. Taulukossa on kertaalleen yhtä lukuunottamatta jokainen välin 0..n luku. Metodin tulee palauttaa puuttuva luku.
+>
+>Esim. parametrilla `[1,2,4,0]` metodin kuuluisi tulostaa 3.
+
 
 Ruby tarjoaa taulukkojen läpikäyntiin ja käsittelyyn useita eri metodeja, ks. [http://ruby-doc.org/core-2.3.0/Array.html](http://ruby-doc.org/core-2.3.0/Array.html)
 
@@ -340,9 +352,11 @@ puts taulu2
 
 Konventiona Rubyssä on kirjoittaa lyhyet, samalle riville metodikutsun kanssa kirjoitettavat koodilohkot aaltosuluilla ja muut 'do/end':illä erotettuina.
 
-> #### Tehtävä 6
+> #### [Tehtävä 6](https://github.com/HY-TKTL/ruby-tehtava6)
 > Tee metodi `monista`, joka saa parametrina kokonaislukutaulukon ja palauttaa merkkijonotaulukon, jonka alkiot on muodostettu parametrina olevan taulukon alkioiden perusteella siten, että luku 1 muuttuu merkkijonoksi "1", luku 2 merkkijonoksi "22" jne.
-> esim. kutsuttaessa `monista([1,5,2])` palauttaa metodi taulukon `["1","55555", "22"]`
+>
+> Esim. kutsuttaessa `monista([1,5,2])` palauttaa metodi taulukon `["1","55555", "22"]`
+>
 >
 >Käytä metodia `map`.
 
@@ -385,10 +399,10 @@ end
 
 Aiempi ratkaisu on kuitenkin huomattavasti elegantimpi.
 
-> #### Tehtävä 7
+> #### [Tehtävä 7](https://github.com/HY-TKTL/ruby-tehtava7)
 > Tee metodi `keskiarvo`, joka saa parametriksi kokonaislukuja sisältävän taulukon ja palauttaa taulukon lukujen keskiarvon. Käytä metodia `inject`
 
-> #### Tehtävä 8
+> #### [Tehtävä 8](https://github.com/HY-TKTL/ruby-tehtava8)
 > Tee metodi `osa`, joka saa parametriksi kokonaislukuja sisältävän taulukon ja palauttaa uuden taulukon, jonka sisältää alkuperäisen taulukon alkioista ne, jotka ovat suurempia kuin alkuperäisen taulukon ensimmäinen luku. Käytä metodia `reject`
 ks. [http://ruby-doc.org/core-2.3.0/Array.html](http://ruby-doc.org/core-2.3.0/Array.html)
 
@@ -462,7 +476,7 @@ irb(main):006:0> hash[3]
 => ["kolme", 3]
 ```
 
-> #### Tehtävä 9
+> #### [Tehtävä 9](https://github.com/HY-TKTL/ruby-tehtava9)
 > Tee metodi `esiintymat`, joka saa parametriksi taulukon ja palauttaa hashin, jonka avaimina ovat taulukon alkiot ja arvoina alkioiden esiintymislukumäärät taulukossa
 
 > #### Tehtävä 10
