@@ -21,7 +21,7 @@ Tehtäväpohjasta "kopioituu" nyt repositorio, joka sijoitaan oman githubtunnuks
 
 Seuraavaksi kloonataan repositorio omalle koneelle. Copypastaa ylläolevan kuvan oikealle merkityssä laatikossa oleva kloonausosoite (varmista, että clone url on tyyppiä _ssh_).
 
-Avaa terminaali ja anna komento (kloonausurlina forkkaamasi repositorion url):
+Avaa terminaali ja anna komento (**käytä forkkaamasi repositorion kloonausurlia**):
 
 ```
 git clone git@github.com:mluukkai-cs/ruby-tehtava4.git
