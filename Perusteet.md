@@ -511,6 +511,25 @@ Joissain tilanteissa voi olla myös tarve muuttaa merkkijono symboliksi:
  => :a
 ```
 
+Uuden hashin voi luoda myös siten, että sillä on jotain sisältöä.
+
+```ruby
+irb(main):001:0 > h = { "kieli" => "ruby", "vuosi"=>2016 }
+ => {"kieli"=>"ruby", "vuosi"=>2016}
+irb(main):002:0 > h["kieli"]
+ => "ruby"
+```
+
+Jos avaimet ovat symbooleja, voidaan käyttää edellisen esimerkin "nuolisyntaksin" sijaan kaksoispistesyntaksia.
+
+ ```ruby
+irb(main):001:0 > h = { nimi: "Chang", ika: 21 }
+ => {:nimi=>"Chang", :ika=>21}
+irb(main):001:0 >
+```
+
+edellinen on siis vain lyhempi tapa merkitä `h = { :nimi => "Chang", :ika => 21 }`.
+
 > #### [Tehtävä 12](https://github.com/HY-TKTL/ruby-tehtava12)
 > Tee metodi `luokittelu`, joka saa parametriksi kokonaislukutaulukon ja palauttaa taulukon arvojen perusteella muodostettavan hashin, jolla on seuraavat avaimet ja arvot
 * :negatiivinen, negatiivisten lukujen lista
