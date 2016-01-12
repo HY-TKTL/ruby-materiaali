@@ -6,6 +6,10 @@ Huomaa, että kurssi on vielä beta-testausvaiheessa. Jos huomaat materiaalissa 
 
 Aloita asentamalla koneellesi Ruby esim. [tämän](https://github.com/mluukkai/WebPalvelinohjelmointi2016/wiki/railsin-asennus) ohjeen mukaan.
 
+Linkit
+* [Ohjeita tehtävien tekemiseen](https://github.com/HY-TKTL/ruby-materiaali/blob/master/tehtavien_tekeminen.md)
+* [Pistelista](https://ruby-scoresheet.herokuapp.com/)
+
 ## Perusteet
 
 ### Komentotulkki
@@ -212,7 +216,7 @@ Virhe johtuu nyt siitä, että Ruby-tulkki ei ole vielä ehtinyt metodimääritt
 
 ### Kurssin tehtävät
 
-Ohjeita tehtävien tekemiseen [täällä]()
+Ohjeita tehtävien tekemiseen [täällä](https://github.com/HY-TKTL/ruby-materiaali/blob/master/tehtavien_tekeminen.md)
 
 > #### [Tehtävä 1](https://github.com/HY-TKTL/ruby-tehtava1)
 > Tee metodi `summa`, joka _palauttaa_ parametreinaan saamansa kahden luvun summan.
