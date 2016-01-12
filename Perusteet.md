@@ -1,5 +1,7 @@
 # Olio-ohjelmointia Rubyllä
 
+[Chang Rajani](https://github.com/Coolnesss), [Matti Luukkainen](https://github.com/mluukkai)
+
 Nopea johdatus Rubyyn jo ohjelmointia osaaville. Kohdeyleisönä lähinnä kurssin Web-palvelinohjelmointi Ruby on Rails -osallistujat.
 
 Huomaa, että kurssi on vielä beta-testausvaiheessa. Jos huomaat materiaalissa typoja tai muita ongelmia, tee _pull request_, eli mene osoitteeseen https://github.com/HY-TKTL/ruby-materiaali/blob/master/Perusteet.md paina vasemmalta kynä-symboolia ja tee muutokset.
