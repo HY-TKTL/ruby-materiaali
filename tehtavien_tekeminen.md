@@ -8,7 +8,8 @@ Tarvitset kurssin suorittamista varten käyttäjätunnuksen [GitHub](http://gith
 
 ## tehtäväpohjan kloonaaminen
 
-Kurssimateriaalin seassa olevien tehtävien nimeä klikkaamalla pääset tehtäväpohjan sisältävään GitHub-repositorioon.
+Kurssimateriaalin seassa olevien tehtävien nimeä klikkaamalla pääset tehtäväpohjan sisältävään GitHub-repositorioon. Voit mennä tehtävien repositorioihin myös suoraan selaimella,
+esim. tehtävän 1 repositorio on osoittessa [https://github.com/HY-TKTL/ruby-tehtava1](https://github.com/HY-TKTL/ruby-tehtava1)
 
 Kun olet tehtäväpohjan repositoriossa _forkkaa_ se itsellesi klikkaamalla yläreunassa olevaa painiketta:
 
@@ -77,4 +78,4 @@ Pull requestin tekemisen jälkeen koodisi testataan [Travis](travis.org)-palvelu
 Tieto suorituksestasi rekisteröityy osoittessa [https://ruby-scoresheet.herokuapp.com/](https://ruby-scoresheet.herokuapp.com/)
 olevalle pistelistalle.
 
-Jos testit eivät mennet läpi, korjaa virheet ja palaa [tähän](## tehtävän palauttaminen)
+Jos testit eivät mennet läpi, korjaa virheet ja palaa kohtaan [tehtävän palauttaminen](https://github.com/HY-TKTL/ruby-materiaali/blob/master/tehtavien_tekeminen.md#tehtävän-palauttaminen)
