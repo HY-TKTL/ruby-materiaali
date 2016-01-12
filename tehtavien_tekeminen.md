@@ -58,7 +58,7 @@ Ensin koodiin tekemäsi muutokset tulee _commitoida_ versionhallintaan. Tämä t
 
 ```
 git add koodi.rb
-git commit -m"tähän commitviesti eli joku järkevä teksti"
+git commit -m "tähän commitviesti eli joku järkevä teksti"
 git push
 ```
 
