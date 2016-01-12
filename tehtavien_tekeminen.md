@@ -8,7 +8,7 @@ Tarvitset kurssin suorittamista varten käyttäjätunnuksen [GitHub](http://gith
 
 ## tehtäväpohjan kloonaaminen
 
-Tehtävää klikkaamalla pääset tehtäväpohjan sisältävään GitHub-repositorioon.
+Kurssimateriaalin seassa olevien tehtävien nimeä klikkaamalla pääset tehtäväpohjan sisältävään GitHub-repositorioon.
 
 Kun olet tehtäväpohjan repositoriossa _forkkaa_ se itsellesi klikkaamalla yläreunassa olevaa painiketta:
 
