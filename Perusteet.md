@@ -10,7 +10,7 @@ Aloita asentamalla koneellesi Ruby esim. [tämän](https://github.com/mluukkai/W
 
 Linkkejä
 * [Ohjeita kurssin tehtävien tekemiseen](https://github.com/HY-TKTL/ruby-materiaali/blob/master/tehtavien_tekeminen.md)
-* [Pistelista](https://ruby-scoresheet.herokuapp.com/)
+* [Pistelista](https://ruby-scoresheet.herokuapp.com/) (avautuminen saattaa kestää hetken...)
 
 ## Perusteet
 
