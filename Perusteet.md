@@ -486,7 +486,7 @@ irb(main):006:0> hash[3]
 > Tee metodi `esiintymat`, joka saa parametriksi taulukon ja palauttaa hashin, jonka avaimina ovat taulukon alkiot ja arvoina alkioiden esiintymislukumäärät taulukossa
 
 > #### [Tehtävä 10](https://github.com/HY-TKTL/ruby-tehtava10)
-> Tee metodi `avaimien_summa`, joka saa parametriksi hashin, jonka kaikki avaimet ovat kokonaislukuja, ja palauttaa sen avaimien summan. Etsi sopivia metodeja [Hashin apikuvauksesta](http://ruby-doc.org/core-2.3.0/Hash.html)
+> Tee metodi `avainten_summa`, joka saa parametriksi hashin, jonka kaikki avaimet ovat kokonaislukuja, ja palauttaa sen avainten summan. Etsi sopivia metodeja [Hashin apikuvauksesta](http://ruby-doc.org/core-2.3.0/Hash.html)
 
 > #### [Tehtävä 11](https://github.com/HY-TKTL/ruby-tehtava11)
 > Tee metodi `arvojarjestys`, joka saa parametriksi hashin, jonka kaikki arvot ovat kokonaislukuja, ja palauttaa taulukon, jossa on sen nollaa suuremmat arvot suuruusjärjestyksessä. Sopivia metodeja löytyy taulukon ja hashin apikuvauksesta.
