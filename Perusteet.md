@@ -11,6 +11,7 @@ Aloita asentamalla koneellesi Ruby esim. [tämän](https://github.com/mluukkai/W
 Linkkejä
 * [Ohjeita kurssin tehtävien tekemiseen](https://github.com/HY-TKTL/ruby-materiaali/blob/master/tehtavien_tekeminen.md)
 * [Pistelista](https://ruby-scoresheet.herokuapp.com/)
+* Materiaalin [toinen osa](LuokkiaJaOlioita.md)
 
 ## Perusteet
 
@@ -539,3 +540,5 @@ edellinen on siis vain lyhempi tapa merkitä `h = { :nimi => "Chang", :ika => 21
 * :summa, taulukon lukujen summa
 >
 > lukujen tulee olla suuruusjärjestyksessä metodien palauttamilla listoilla
+
+Jatka kurssin [toiseen osaan](LuokkiaJaOlioita.md)
