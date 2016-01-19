@@ -39,7 +39,7 @@ Hei Maailma!
 
 Komento tulostaa ruudulle oletuksen mukaisesti merkkijonon, mutta sen lisäksi tulostuu `=> nil`. Kyseessä on komennon puts paluuarvo `nil`, joka vastaa Javan null:ia. Toisin kuin esim. Javassa, Rubyssä jokaisella komennolla on paluuarvo, ja koska komennon `puts`ei tarvitse palauttaa mitään erityistä, se palauttaa nil:in eli "ei mitään".
 
-Voimme myös kirjoittaa artimetiikkaa irbiin. Seuraava havainnollistaa tätä:
+Voimme myös kirjoittaa aritmetiikkaa irbiin. Seuraava havainnollistaa tätä:
 
 ```ruby
 irb(main):001:0> 10+2
@@ -123,7 +123,7 @@ irb(main):016:0> tuplaa 5
 => 10
 irb(main):017:0>
 ```
-Ensimmäinen rivi määrittelee metodin tuplaa, joka ottaaa *parametrin* `luku`. Rubyssä palautetaan automaattiseti metodin viimeisen operaation tulos, eli metodimme palauttaa lausekkeen `luku*2` arvon.
+Ensimmäinen rivi määrittelee metodin tuplaa, joka ottaa *parametrin* `luku`. Rubyssä palautetaan automaattiseti metodin viimeisen operaation tulos, eli metodimme palauttaa lausekkeen `luku*2` arvon.
 Olisimme voineet käyttää myös komentoa `return` mutta se on tässä tapauksessa turha:
 
 ```ruby
@@ -177,7 +177,7 @@ Irb on todella tärkeä työkalu Ruby-ohjelmoijalle. Aina kun on tarvetta kokeil
 
 ### Ruby-tiedosto
 
-Usein haluamme kirjoittaa laajempia kokonaisuuksia, ja tähän komentotulkkimme on käytettävyydeltään liian huono. Voimmekin kirjoittaa koodimme `.rb`-päätteellä varustettuun teksitiedostoon ja suorittaa sen komennolla `ruby`.
+Usein haluamme kirjoittaa laajempia kokonaisuuksia, ja tähän komentotulkkimme on käytettävyydeltään liian huono. Voimmekin kirjoittaa koodimme `.rb`-päätteellä varustettuun tekstitiedostoon ja suorittaa sen komennolla `ruby`.
 
 Oletetaan että edellä määritelty metodi ja sitä kutsuva koodi olisi kirjoitettu tiedostoon `test.rb`:
 
@@ -200,11 +200,11 @@ user@cpu:~$ ruby test.rb
 
 Huomataan, että paluuarvoa `=> nil` ei enää tulosteta. Metodin paluuarvon automaattinen tulostus onkin irb:in ominaisuus.
 
-Emme tarvitse nyt mitään erillisä pääohjelmaa (kuten Javan main), Ruby-tulkki alkaa suorittaa komentoja siinä järjestyksessä kuin niitä tiedostossa on.
+Emme tarvitse nyt mitään erillistä pääohjelmaa (kuten Javan main), Ruby-tulkki alkaa suorittaa komentoja siinä järjestyksessä kuin niitä tiedostossa on.
 
 Kannattaa huomata että toisin kuin monissa kielissä (esim. Javassa) Rubyssä koodia ei _käännetä_ vaan se _tulkitaan_ rivi riviltä. Tämän takia koodiin tehdyt kirjoitusvirheetkin paljastuvat vasta koodia suoritettaessa.
 
-Jos olisimme kirjottaneet tiedoston sisällön seuraavasti (eli metodin kutsu ennen mentodin määrittelyä), koodin suoritus olisi aiheuttanut virheen:
+Jos olisimme kirjoittaneet tiedoston sisällön seuraavasti (eli metodin kutsu ennen metodin määrittelyä), koodin suoritus olisi aiheuttanut virheen:
 
 ```ruby
 luku = tuplaa(4)
@@ -379,7 +379,7 @@ irb(main):002:0> taulu.select{ |x| x.is_a? String}
 => ["kolme"]
 ```
 
-Usein on tarve laskea taulkon alkioiden perusteella jokin yksittäinen arvo, esim. alkioiden summa. Näihin tilanteisiin sopii hyvin metodi `inject`. Inject kokoaa yhteen kaikki alkiot metodin parametrinaan saaman koodilohkon määräämällä tavalla.
+Usein on tarve laskea taulukon alkioiden perusteella jokin yksittäinen arvo, esim. alkioiden summa. Näihin tilanteisiin sopii hyvin metodi `inject`. Inject kokoaa yhteen kaikki alkiot metodin parametrinaan saaman koodilohkon määräämällä tavalla.
 
 Taulukon summan voisi laskea seuraavasti:
 
@@ -448,7 +448,7 @@ NoMethodError: undefined method `[]=' for :omena:Symbol
   from /home/user/.rbenv/versions/2.2.0/bin/irb:11:in `<main>'
 ```
 
-Symbooli onkin huomattavasti tehokkaampi kuin merkkijono, eli `String`, koska samaan symboliin viittaaminen viittaa koko ohjelman suorituksen ajan samaan olioon. On siis hyödyllistä käyttää symbooleita, jos ei tarvita muita merkkiojonojen ominaisuuksia, kuten esimerkiksi muuttamista.
+Symbooli onkin huomattavasti tehokkaampi kuin merkkijono, eli `String`, koska samaan symboliin viittaaminen viittaa koko ohjelman suorituksen ajan samaan olioon. On siis hyödyllistä käyttää symbooleita, jos ei tarvita muita merkkijonojen ominaisuuksia, kuten esimerkiksi muuttamista.
 
 ### hash
 
