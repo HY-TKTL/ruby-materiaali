@@ -43,7 +43,7 @@ Koodi suoritetaan antamalla terminaalista komento
 ruby koodi.rb
 ```
 
-Tehtävään liittyvät testit ovat tidostossa `test_spec.rb`. Testit suoritetaan terminaalista komennolla:
+Tehtävään liittyvät testit ovat tiedostossa `test_spec.rb`. Testit suoritetaan terminaalista komennolla:
 
 ```
 rspec test_spec.rb

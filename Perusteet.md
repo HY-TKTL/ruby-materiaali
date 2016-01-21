@@ -39,7 +39,7 @@ Hei Maailma!
 
 Komento tulostaa ruudulle oletuksen mukaisesti merkkijonon, mutta sen lisäksi tulostuu `=> nil`. Kyseessä on komennon puts paluuarvo `nil`, joka vastaa Javan null:ia. Toisin kuin esim. Javassa, Rubyssä jokaisella komennolla on paluuarvo, ja koska komennon `puts`ei tarvitse palauttaa mitään erityistä, se palauttaa nil:in eli "ei mitään".
 
-Voimme myös kirjoittaa artimetiikkaa irbiin. Seuraava havainnollistaa tätä:
+Voimme myös kirjoittaa aritmetiikkaa irbiin. Seuraava havainnollistaa tätä:
 
 ```ruby
 irb(main):001:0> 10+2
@@ -177,7 +177,7 @@ Irb on todella tärkeä työkalu Ruby-ohjelmoijalle. Aina kun on tarvetta kokeil
 
 ### Ruby-tiedosto
 
-Usein haluamme kirjoittaa laajempia kokonaisuuksia, ja tähän komentotulkkimme on käytettävyydeltään liian huono. Voimmekin kirjoittaa koodimme `.rb`-päätteellä varustettuun teksitiedostoon ja suorittaa sen komennolla `ruby`.
+Usein haluamme kirjoittaa laajempia kokonaisuuksia, ja tähän komentotulkkimme on käytettävyydeltään liian huono. Voimmekin kirjoittaa koodimme `.rb`-päätteellä varustettuun tekstitiedostoon ja suorittaa sen komennolla `ruby`.
 
 Oletetaan että edellä määritelty metodi ja sitä kutsuva koodi olisi kirjoitettu tiedostoon `test.rb`:
 
@@ -200,11 +200,11 @@ user@cpu:~$ ruby test.rb
 
 Huomataan, että paluuarvoa `=> nil` ei enää tulosteta. Metodin paluuarvon automaattinen tulostus onkin irb:in ominaisuus.
 
-Emme tarvitse nyt mitään erillisä pääohjelmaa (kuten Javan main), Ruby-tulkki alkaa suorittaa komentoja siinä järjestyksessä kuin niitä tiedostossa on.
+Emme tarvitse nyt mitään erillisiä pääohjelmaa (kuten Javan main), Ruby-tulkki alkaa suorittaa komentoja siinä järjestyksessä kuin niitä tiedostossa on.
 
 Kannattaa huomata että toisin kuin monissa kielissä (esim. Javassa) Rubyssä koodia ei _käännetä_ vaan se _tulkitaan_ rivi riviltä. Tämän takia koodiin tehdyt kirjoitusvirheetkin paljastuvat vasta koodia suoritettaessa.
 
-Jos olisimme kirjottaneet tiedoston sisällön seuraavasti (eli metodin kutsu ennen mentodin määrittelyä), koodin suoritus olisi aiheuttanut virheen:
+Jos olisimme kirjottaneet tiedoston sisällön seuraavasti (eli metodin kutsu ennen metodin määrittelyä), koodin suoritus olisi aiheuttanut virheen:
 
 ```ruby
 luku = tuplaa(4)
@@ -272,7 +272,7 @@ Tässä `0..4` vastaa suljettua väliä [0,4] ja for iteroi välin läpi siten, 
 
 Muitakin vaihtoehtoja toiston toteuttamiseen on, mutta emme käy niitä nyt läpi. Tärkeintä on osata muutama omaa käyttötarkoitusta varten, loput voi katsoa [esimerkiksi täältä](http://www.tutorialspoint.com/ruby/ruby_loops.htm).
 
-Rubyssä käytetään erittäin harvoin for- ja while-toistolausekkeita. Jos huomaat käyttäväsi niitä, tiedät että koodisi ei ole kovin Rubymaistä.
+Rubyssä käytetään erittäin harvoin for- ja while-toistolausekkeita. Jos huomaat käyttäväsi niitä, tiedät että koodisi ei ole kovin Rubymäistä.
 
 > #### [Tehtävä 3](https://github.com/HY-TKTL/ruby-tehtava3)
 > Tee metodi `kertoma`, joka palauttaa annetun luvun kertoman.
@@ -379,7 +379,7 @@ irb(main):002:0> taulu.select{ |x| x.is_a? String}
 => ["kolme"]
 ```
 
-Usein on tarve laskea taulkon alkioiden perusteella jokin yksittäinen arvo, esim. alkioiden summa. Näihin tilanteisiin sopii hyvin metodi `inject`. Inject kokoaa yhteen kaikki alkiot metodin parametrinaan saaman koodilohkon määräämällä tavalla.
+Usein on tarve laskea taulukon alkioiden perusteella jokin yksittäinen arvo, esim. alkioiden summa. Näihin tilanteisiin sopii hyvin metodi `inject`. Inject kokoaa yhteen kaikki alkiot metodin parametrinaan saaman koodilohkon määräämällä tavalla.
 
 Taulukon summan voisi laskea seuraavasti:
 
@@ -448,7 +448,7 @@ NoMethodError: undefined method `[]=' for :omena:Symbol
   from /home/user/.rbenv/versions/2.2.0/bin/irb:11:in `<main>'
 ```
 
-Symbooli onkin huomattavasti tehokkaampi kuin merkkijono, eli `String`, koska samaan symboliin viittaaminen viittaa koko ohjelman suorituksen ajan samaan olioon. On siis hyödyllistä käyttää symbooleita, jos ei tarvita muita merkkiojonojen ominaisuuksia, kuten esimerkiksi muuttamista.
+Symbooli onkin huomattavasti tehokkaampi kuin merkkijono, eli `String`, koska samaan symboliin viittaaminen viittaa koko ohjelman suorituksen ajan samaan olioon. On siis hyödyllistä käyttää symbooleita, jos ei tarvita muita merkkijonojen ominaisuuksia, kuten esimerkiksi muuttamista.
 
 ### hash
 
@@ -472,7 +472,7 @@ irb(main):004:0> hash[3] = ["kolme", 3]
 => ["kolme", 3]
 ```
 
-Kuten huomataam, hashin arvo voi olla myös taulukko.
+Kuten huomataan, hashin arvo voi olla myös taulukko.
 
 Avainta vastaavan arvon haku hash-rakenteesta helppoa:
 
