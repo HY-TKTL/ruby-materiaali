@@ -250,7 +250,7 @@ Jos on tarvetta tietää, monesko toiston kerroista on menossa, toimitaan seuraa
 end
 ```
 
-Koodilohkolle on nyt määritellään muuttuja `i` joka saa kaikki arvot väliltä 0..4.
+Koodilohkolle määritellään nyt muuttuja `i` joka saa kaikki arvot väliltä 0..4.
 
 Huomaa, että koodilohkon alku ja loppu voidaan merkata myös aaltosuluilla:
 
