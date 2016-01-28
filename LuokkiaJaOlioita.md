@@ -264,7 +264,7 @@ Opiskelija.new nimi:"Chang", opnro:"12345"
 
 Normaalistihan hash määritellään aaltosulkeissa `{ nimi:"Chang", opnro:"12345" }`, metodikutsun viimeisenä parametrina oleva hash voidaan kuitenkin määritellä ilman aaltosulkeita ja näin Ruby-konvention mukaan lähes aina tehdäänkin.
 
-Edellä olleesta esimerkistä huomasimme, että iän ja opintopisteiden määritteleminen olion luonnin yhteydessä oli vapaaehtoisa. Tämän takia konstruktorissa käytettiin operaattoria `||`:
+Edellä olleesta esimerkistä huomasimme, että iän ja opintopisteiden määritteleminen olion luonnin yhteydessä oli vapaaehtoista. Tämän takia konstruktorissa käytettiin operaattoria `||`:
 
 ``` ruby
   def initialize(params)
