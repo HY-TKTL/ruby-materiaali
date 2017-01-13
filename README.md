@@ -2,7 +2,7 @@
 
 materiaali
 
-* https://github.com/HY-TKTL/ruby-materiaali/blob/master/Perusteet.md
-*https://github.com/HY-TKTL/ruby-materiaali/blob/master/LuokkiaJaOlioita.md
+* [Perusteet](https://github.com/HY-TKTL/ruby-materiaali/blob/master/Perusteet.md)
+* [Luokkia ja olioita](https://github.com/HY-TKTL/ruby-materiaali/blob/master/LuokkiaJaOlioita.md)
 
 https://ruby-scoresheet.herokuapp.com/
