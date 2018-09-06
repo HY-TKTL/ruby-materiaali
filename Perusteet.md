@@ -122,7 +122,7 @@ irb(main):016:0> tuplaa 5
 => 10
 irb(main):017:0>
 ```
-Ensimmäinen rivi määrittelee metodin tuplaa, joka ottaaa *parametrin* `luku`. Rubyssä palautetaan automaattiseti metodin viimeisen operaation tulos, eli metodimme palauttaa lausekkeen `luku*2` arvon.
+Ensimmäinen rivi määrittelee metodin tuplaa, joka ottaa *parametrin* `luku`. Rubyssä palautetaan automaattiseti metodin viimeisen operaation tulos, eli metodimme palauttaa lausekkeen `luku*2` arvon.
 Olisimme voineet käyttää myös komentoa `return` mutta se on tässä tapauksessa turha:
 
 ```ruby
@@ -528,7 +528,7 @@ irb(main):001:0 > h = { nimi: "Chang", ika: 21 }
 irb(main):001:0 >
 ```
 
-edellinen on siis vain lyhempi tapa merkitä `h = { :nimi => "Chang", :ika => 21 }`.
+edellinen on siis vain lyhyempi tapa merkitä `h = { :nimi => "Chang", :ika => 21 }`.
 
 > #### [Tehtävä 12](https://github.com/HY-TKTL/ruby-tehtava12)
 > Tee metodi `luokittelu`, joka saa parametriksi kokonaislukutaulukon ja palauttaa taulukon arvojen perusteella muodostettavan hashin, jolla on seuraavat avaimet ja arvot
