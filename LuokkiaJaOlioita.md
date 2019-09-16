@@ -264,7 +264,7 @@ Opiskelija.new nimi:"Chang", opnro:"12345"
 
 Normaalistihan hash määritellään aaltosulkeissa `{ nimi:"Chang", opnro:"12345" }`, metodikutsun viimeisenä parametrina oleva hash voidaan kuitenkin määritellä ilman aaltosulkeita ja näin Ruby-konvention mukaan lähes aina tehdäänkin.
 
-Edellä olleesta esimerkistä huomasimme, että iän ja opintopisteiden määritteleminen olion luonnin yhteydessä oli vapaaehtoisa. Tämän takia konstruktorissa käytettiin operaattoria `||`:
+Edellä olleesta esimerkistä huomasimme, että iän ja opintopisteiden määritteleminen olion luonnin yhteydessä oli vapaaehtoista. Tämän takia konstruktorissa käytettiin operaattoria `||`:
 
 ``` ruby
   def initialize(params)
@@ -338,7 +338,7 @@ end
 
 > ## [Tehtävä 16](https://github.com/HY-TKTL/ruby-tehtava16)
 >
-> Tee moduuli `Siirrettava`, joka olettaa että luokassa, johon moduuli liitetään on, sen sijainnin kordinaatit kertovat oliomuuttujat `@x` ja `@y`. Moduuli määrittelee metodit:
+> Tee moduuli `Siirrettava`, joka olettaa, että luokassa, johon moduuli liitetään, on sen sijainnin kordinaatit kertovat oliomuuttujat `@x` ja `@y`. Moduuli määrittelee metodit:
 > * siirraPisteeseen(x, y) joka muuttaa sijainin parametreina olevaan pisteeseen
 > * siirraSuuntaan(dx, dy) joka muuttaa sijainnin siten, että se lisää parametrina olevat arvot vanhaan sijaintiin
 
@@ -411,7 +411,7 @@ Seuraavassa vielä muutama hieman haastavampi, omatoimista tiedonhakua edellytt�
 > ika 0
 > ```
 >
-> Rubyn luokka [Object](http://ruby-doc.org/core-2.3.0/Object.html), jonka kaikki luokat perivät tarjoavat sopivat metodit, joiden avulla pääset oliomuuttujiin ja niiden arvoihin käsiksi. Ks. [http://ruby-doc.org/core-2.3.0/Object.html](http://ruby-doc.org/core-2.3.0/Object.html)
+> Rubyn luokka [Object](http://ruby-doc.org/core-2.3.0/Object.html), jonka kaikki luokat perivät, tarjoavaa sopivat metodit, joiden avulla pääset oliomuuttujiin ja niiden arvoihin käsiksi. Ks. [http://ruby-doc.org/core-2.3.0/Object.html](http://ruby-doc.org/core-2.3.0/Object.html)
 
 > ## [Tehtävä 18](https://github.com/HY-TKTL/ruby-tehtava18)
 >
@@ -552,6 +552,6 @@ lisää metodin koodia
 >
 > Tee luokka `Pino`, jolla on seuraavat metodit
 > * `push(x)` laittaa x:n pinoon
-> * `pop` ottaa palauttaa pinon päälimmäisen alkion, jos pino on tyhjä heitetään `RuntimeError` poikkeus
+> * `pop` vetää pinosta päälimmäisen alkion, jos pino on tyhjä heitetään `RuntimeError` poikkeus.
 > Tämän lisäksi pinon tulee sisällyttää moduuli `Enumerable`
-> Sisälläytyksen ansiosta pino siis saa kaiken [toiminnallisuuden](http://ruby-doc.org/core-2.3.0/Enumerable.html) mitä Enumerable-moduuli määrittelee
+> Sisällytyksen ansiosta pino siis saa kaiken [toiminnallisuuden](http://ruby-doc.org/core-2.3.0/Enumerable.html) mitä Enumerable-moduuli määrittelee
