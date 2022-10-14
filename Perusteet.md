@@ -6,7 +6,7 @@ Nopea johdatus Rubyyn jo ohjelmointia osaaville. Kohdeyleisönä lähinnä kurss
 
 Materiaali on vielä beta-testausvaiheessa. Jos huomaat materiaalissa typoja tai muita ongelmia, tee _pull request_, klikkaamalla tämän sivun vasemman yläreunan kynäsymboolia ja tee muutokset.
 
-Aloita asentamalla koneellesi Ruby esim. [tämän](https://github.com/mluukkai/WebPalvelinohjelmointi2018/blob/master/web/railsin_asentaminen.md) ohjeen mukaan.
+Aloita asentamalla koneellesi Ruby esim. [tämän]([https://github.com/mluukkai/WebPalvelinohjelmointi2018/blob/master/web/railsin_asentaminen.md](https://github.com/mluukkai/WebPalvelinohjelmointi2022/blob/main/web/viikko1.md#railsin-asennus)) ohjeen mukaan.
 
 Linkkejä
 * [Ohjeita kurssin tehtävien tekemiseen](https://github.com/HY-TKTL/ruby-materiaali/blob/master/tehtavien_tekeminen.md)
